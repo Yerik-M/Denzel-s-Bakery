@@ -1,0 +1,49 @@
+body {
+  /*1 give web page a backround color*/
+  background: rgba(255, 209, 209, 0.61);
+}
+p { /*3 change all text color*/
+  color: #7081f8;
+}
+
+
+h1 {color: #ac90f4;
+  font-family: cursive;
+
+}
+h4{
+  color: #9c9cff;
+}
+
+h1{
+  color: #9c9cff;
+}
+h2{
+  color: #e8ffff;
+    font-family: cursive;
+
+}
+img{
+  border-radius: 20px;
+  /*2 make all images go to the right*/
+  float: right;
+  width: 200px;
+  /*add any other styles you want*/
+  border-style: solid;
+  border-color: #9bbdda;
+  
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recipe-cad{
+  width: 325px;
+  border border-style: dotted;
+  border-color: #b2c275;
+  border-width: 2px;
+  text-align: center;
+  margin: 10px;  
+}
